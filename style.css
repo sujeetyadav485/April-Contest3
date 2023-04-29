@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.left_header > a {
+    text-decoration: none;
+    margin: 10px;
+}
+section{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+h1{
+    margin: 20px;
+    font-size: 50px;
+}
+.form > div{
+    margin: 20px;
+}
+.form > div > input {
+    border:none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 100%;
+}
+.outer_container{
+    width: 70%;
+    /* display: grid;
+    place-items: center; */
+}
+button{
+    border: none;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+}
+.profile_inner{
+    margin: 30px;
+}
+.profile_inner > div {
+    margin: 20px;
+}
+.profile > h3,h4{
+    margin: 10px 0px ;
+}
+h3{
+    font-size: 40px;
+    font-weight: 100;
+}
+h4{
+    font-size: 25px; 
+    font-weight: 100;
+}
+.alertText{
+    color:red
+}
+.greenText{
+    color: green;
+}

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h4>Header</h4>
+        <div class="left_header">
+            <a href="./index.html">Sign Up</a>
+            <a onclick="profile()">profile</a>
+        </div>
+    </header>
+    
+    <section>
+        <div class="alert" id="alert"></div>
+       <div class="outer_container">
+        <h1>Sign Up</h1>
+        <form action="" class="form"  id="form">
+            <div>
+                <input type="text" placeholder="Full Name" id="name">
+            </div>
+            <div>
+                <input type="email" placeholder="Email" id="email">
+            </div>
+           <div>
+            <input type="password" name="pass" id="pass" placeholder="Password">
+           </div>
+            <div>
+                <input type="password" name="pass" id="cpass" placeholder=" Confirm Password">
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+       </div>
+       <div id="errorText"></div>
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
